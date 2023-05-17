@@ -1,0 +1,241 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+	background: transparent;
+	font-weight: normal;
+	text-decoration: none;
+	outline: none;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+ol, ul {
+	list-style: none;
+}
+del {
+	text-decoration: line-through;
+}
+body {
+	font-family: "Circular-Std-Regular", Arial, Helvetica, sans-serif;
+	font-size: 17px;
+	color: #1C2C40;
+	overflow-x: hidden;
+	min-width: 320px;
+	font-weight: 400;
+}
+input,textarea,select{
+	font-family: "Circular-Std-Regular", Arial, Helvetica, sans-serif;
+	font-weight: 400;
+}
+
+a{
+	color: #1C2C40;
+}
+a:hover,.submit:hover{
+	filter: alpha(opacity = 85);
+	-moz-opacity: 0.85;
+	-khtml-opacity: 0.85;
+	opacity: 0.85;
+}
+.thumb{
+	display: block;
+}
+.thumb img{
+	display: block;
+	width:100%;
+}
+p{
+	line-height:1.6em;
+	font-size: 16px;
+	font-family: "Circular-Std-Regular", Arial;
+	font-weight: 400;
+}
+.hidden{
+	display:none;
+}
+br.clear {
+	clear: both;
+	line-height: 0;
+}
+.wrapper {
+	width: 90%;
+	margin: 0 auto;
+	max-width:1100px;
+}
+@font-face {
+	font-family: 'Circular-Std-Regular';
+	src:url('../fonts/CircularStd-Regular.woff2') format('woff2');
+	src:url('../fonts/CircularStd-Regular.woff') format('woff');
+	font-style: normal;
+}
+@font-face {
+    font-family: 'Circular-Std-Bold';
+    src: url("../fonts/CircularStd-Bold.woff2") format("woff2");
+    src: url("../fonts/CircularStd-Bold.woff") format("woff");
+    font-style: normal
+}
+header{
+height: 80px;
+}
+header section.wrapper{
+height: 100%;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+header h1.left{
+ width: 70px;
+}
+header h1.left a{
+	width: 100%;
+ display: block;
+}
+header h1.left a img{
+ display: block;
+ width: 100%;
+}
+header nav.middle{
+ 
+}
+header nav.middle ul{
+ display: flex;
+}
+header nav.middle ul li{
+ margin-right: 25px;
+}
+header nav.middle ul li:last-child{
+	margin-right: 0;
+}
+header nav.middle ul li a{
+	font-size: 14px;
+	color: #818392;
+}
+header ul.right {
+ display: flex;
+}
+header ul.right li{
+ margin-right: 25px;
+}
+header ul.right li:last-child{
+	margin-right: 0;
+}
+header ul.right li a{
+	font-size: 14px;
+	color: #818392;
+}
+header ul.right li a.button{
+ padding: 8px 20px;
+ border: 1px solid #818392;
+ border-radius: 25px;
+ color:#175cff ;
+}
+#spotlight{
+ display: flex;
+ justify-content: space-between;
+ padding-bottom: 100px;
+}
+#spotlight div.left{
+ width: 50%;
+ padding: 115px 10% 0;
+}
+#spotlight div.left h1{
+ font-size: 54px;
+ font-weight: bold;
+ margin-bottom: 25px;
+ font-family:'Circular-Std-Bold' ;
+}
+#spotlight div.left p{
+ color: #818392;
+ font-weight: bold;
+ margin-bottom: 35px;
+}
+#spotlight div.left a.button{
+ padding: 15px 35px;
+background: #175cff;
+color: #ffffff;
+display: inline-block;
+border-radius: 25px;
+margin-bottom: 30px;
+font-weight: bold;
+}
+#spotlight div.left ul{
+}
+#spotlight div.left ul li{
+ display: flex;
+ align-items: center;
+ color: #818392;
+ font-size: 14px;
+ margin-bottom: 15px;
+}
+#spotlight div.left ul li img{
+	width: 20px;
+ display: inline-block;
+ margin-right: 15px;
+}
+#spotlight div.right{
+ width: 48%;
+ position: relative;
+}
+#spotlight div.right div.bg{
+ width: 72%;
+ background: #e3e3e3;
+ height: 550px;
+ position: absolute;
+ bottom: -70px;
+ right:0 ;
+ z-index: 1;
+}
+#spotlight div.right div.content{
+ background: #0a083a;
+ width: 50%;
+ padding: 30px;
+ color: #fff;
+ position: absolute;
+ z-index: 4;
+ bottom: 0;
+ left: 0;
+}
+#spotlight div.right div.content p{
+ margin-bottom: 15px;
+ font-size: 13px;
+}
+#spotlight div.right div.content h6{
+ font-size: 14px;
+ font-family:'Circular-Std-Bold' ;
+}
+#spotlight div.right div.content span.role{
+ font-size: 12px;
+ color: #818392;
+}
+#spotlight div.right div.content img.koma{
+	position: absolute;
+	width:48px ;
+	left: -20px;
+	top: -16px;
+	z-index: 5;
+}
+#spotlight div.right img.hero{
+ width: 65%;
+ height: 550px;
+ display: inline-block;
+ position: absolute;
+ left: 12%;
+ bottom: 0;
+ z-index: 3;
+}
+#spotlight div.right img.mesh{
+	width: 120px;
+	display: inline-block;
+	position: absolute;
+	right: 19%;
+	bottom: -24px;
+	z-index:2 ;
+}
+
+
+
+
+
+
